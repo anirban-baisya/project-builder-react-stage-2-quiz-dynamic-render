@@ -1,0 +1,84 @@
+body
+{
+    background-color: #40407A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 10%;
+    width: 1300px;
+    padding: 0px;
+}
+.option{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 30px;
+}
+.option div{
+    background-color: dodgerblue;
+    height: 58px;
+    width: 300px;
+    border-radius: 33px;
+    padding: 8px;
+    color: white;
+}
+/* button{
+    height: 20px;
+    width: 65px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.486);
+} */
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    display: inline-flex;
+    text-align: left;
+}
+.one{
+    padding-right: 300px;
+    padding-left: 0px;
+}
+.two{
+    padding-right: 300px;
+    font-size: 20px;
+}
+
+.prev
+{
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    padding: 6px;
+}
+
+.next
+{
+    background-color:green;
+    outline: none;
+    border: none;
+    padding: 6px;
+}
+
+.sub
+{
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 6px;
+}
